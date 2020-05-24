@@ -20,6 +20,7 @@
    
 ### URI与URL
 <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/URI.PNG" alt="URI" width="200" height="100" align="center" />
+
 - URI：一个紧凑的字符串用来标示抽象或物理资源。URI可以分为URL、URN或同时具备locators和names特性的一个东西，而URN的作用就好像一个人的名字，URL就像一个人的地址。换个方式理解就是，URN确定了东西的身份，URL提供了找到它的方式。
 - URL：是URI的子集，除了确定一个资源，还提供一种定位该资源的主要访问机制。URL是URI的一种，但不是所有的URI都是URL。
 
