@@ -40,11 +40,10 @@
       
 ### DNS域名解析
 - DNS提供域名与IP地址之间的解析服务。
-<br />
-<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/DNS%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90.PNG" alt="DNS域名解析" width="500" height="300" align="center" />
 - DNS的服务是具有层次的，并且采用了就近原则。
    - 在进行DNS解析的时候，系统会优先从host文件中去寻找对应的IP地址，若没有，就到本地的DNS服务器中寻找，再没有，就到上一级DNS服务器中寻找直至根DNS服务器。
-
+<br />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/DNS%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90.PNG" alt="DNS域名解析" width="500" height="300" align="center" />
 
 
 
