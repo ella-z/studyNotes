@@ -8,7 +8,7 @@
    2. 传输层：通过系统调用向应用层提供处于网络连接中的两台计算机之间的数据传输功能。在传输层的两个性质不同的协议：TCP和UDP(TCP是面向链接的
    (在客户端和服务器之间传输数据之前要先建立连接)，UDP是无连接的)。
       - TCP三次握手： 
-         ![三次握手](https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B.PNG)
+         - ![三次握手](https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B.PNG)
          1. 第一次握手：客户端发送带有SYN标志的连接请求报文段，然后进入SYN_SEND状态，等待服务端的确认。
          2. 第二次握手：服务端接收到客户端的SYN报文段后，需要发送ACK信息对这个SYN报文段进行确认。同时，还要发送自己的SYN请求信息。服务段会将
          上述的信息放到一个报文段(SYN+ACK报文段)中，一并发送到客户端，此时服务端将会进入SYN_RECEIVED状态。
@@ -18,8 +18,8 @@
       传输给对方。
    4. 链路层：用来处理链接网络的硬件部分，包括控制操作系统、硬件设备驱动、网络适配器以及光纤等物理课件部分。硬件上的范畴均在链路层的作用范围
       之内。
-   ![HTTP数据的传输过程](https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTP%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B.PNG)   
-   ![数据包的封装过程](https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E6%95%B0%E6%8D%AE%E5%8C%85%E7%9A%84%E5%B0%81%E8%A3%85%E8%BF%87%E7%A8%8B.PNG)
+   - ![HTTP数据的传输过程](https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTP%E6%95%B0%E6%8D%AE%E7%9A%84%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B.PNG)   
+   - ![数据包的封装过程](https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E6%95%B0%E6%8D%AE%E5%8C%85%E7%9A%84%E5%B0%81%E8%A3%85%E8%BF%87%E7%A8%8B.PNG)
       
 - 简易描述传递的过程：当用户在浏览器中输入一个域名时，会通过DNS服务器获得域名所映射得IP地址并且返回给浏览器，浏览器就会根据IP地址再与web服务器
 进行通信，而这个通信得协议就是http协议。浏览器给web服务器发送的是请求报文，web服务器返回给浏览器的是响应报文，浏览器再根据响应报文渲染页面。
