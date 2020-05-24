@@ -4,7 +4,7 @@
 - HTTP协议是构建再TCP/IP协议之上的，是TCP/IP的一个子集。
 - HTTP事务处理过程：当客户端访问web站点时，首先会通过DNS服务查询到域名的IP地址，浏览器就会根据IP地址再与web服务器进行通信，而这个通信得协议就是http协议。然后浏览器生成HTTP请求（请求报文），并通过TCP/IP协议发送给web服务器，web服务器接收到请求后会根据请求生成的响应内容（响应报文），并通过TCP/IP协议返回给客户端，浏览器再根据响应报文渲染页面。
 <br />
-<img src="" alt="HTTP事务处理过程" width="500" height="300" align="center" />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTP%E4%BA%8B%E5%8A%A1%E5%A4%84%E7%90%86%E8%BF%87%E7%A8%8B.PNG" alt="HTTP事务处理过程" width="500" height="300" align="center" />
 
 ### 域名
 - 域名：是由一串用点分隔的名字组成的Internet上某一台计算机或计算机组的名称，用于在数据传输时对计算机的定位标识。例如：baidu.com就是一个域名。
@@ -41,7 +41,7 @@
 ### DNS域名解析
 - DNS提供域名与IP地址之间的解析服务。
 <br />
-<img src="" alt="DNS域名解析" width="500" height="300" align="center" />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/DNS%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90.PNG" alt="DNS域名解析" width="500" height="300" align="center" />
 - DNS的服务是具有层次的，并且采用了就近原则。
    - 在进行DNS解析的时候，系统会优先从host文件中去寻找对应的IP地址，若没有，就到本地的DNS服务器中寻找，再没有，就到上一级DNS服务器中寻找直至根DNS服务器。
 
