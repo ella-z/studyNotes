@@ -28,16 +28,16 @@
 ### 报文
 - 报文头分为：通用报文头、请求报文头、响应报文头和实体报文头。
    - 通用报文头：
-   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E9%80%9A%E7%94%A8%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="通用报文头" width="300" height="100" align="center" />
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E9%80%9A%E7%94%A8%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="通用报文头" width="400" height="200" align="center" />
    
    - 请求报文头：
-   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="请求报文头" width="300" height="100" align="center" />
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="请求报文头" width="400" height="300" align="center" />
    
    - 响应报文头：
-   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%93%8D%E5%BA%94%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="响应报文头" width="300" height="100" align="center" />
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%93%8D%E5%BA%94%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="响应报文头" width="400" height="200" align="center" />
    
    - 实体报文头：
-   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%AE%9E%E4%BD%93%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="实体报文头" width="300" height="100" align="center" />
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%AE%9E%E4%BD%93%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="实体报文头" width="400" height="200" align="center" />
    
 #### 请求报文
 <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87.PNG" alt="请求报文" width="500" height="300" align="center" />
