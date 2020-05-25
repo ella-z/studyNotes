@@ -28,14 +28,19 @@
 ### 报文
 - 报文头分为：通用报文头、请求报文头、响应报文头和实体报文头。
    - 通用报文头：
-   <img src="" alt="通用报文头" width="200" height="400" align="center" />
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E9%80%9A%E7%94%A8%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="通用报文头" width="300" height="100" align="center" />
    
    - 请求报文头：
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="请求报文头" width="300" height="100" align="center" />
+   
    - 响应报文头：
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%93%8D%E5%BA%94%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="响应报文头" width="300" height="100" align="center" />
+   
    - 实体报文头：
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%AE%9E%E4%BD%93%E6%8A%A5%E6%96%87%E5%A4%B4.PNG" alt="实体报文头" width="300" height="100" align="center" />
    
 #### 请求报文
-<img src="" alt="请求报文" width="500" height="300" align="center" />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87.PNG" alt="请求报文" width="500" height="300" align="center" />
   
 - HTTP的请求报文的一些常见属性：
 1. Accept
@@ -59,7 +64,8 @@
 8. Content-Type
    - 作用：说明了报文体内对象的媒体类型。
    <br />
-   <img src="" alt="通用报文头" width="400" height="200" align="center" />
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%AA%92%E4%BD%93%E7%B1%BB%E5%9E%8B2.PNG" alt="媒体类型" width="300" height="100" align="center" />
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%AA%92%E4%BD%93%E7%B1%BB%E5%9E%8B.PNG" alt="媒体类型" width="300" height="100" align="center" />
 
 - HTTP的请求方法
 + 常用的：
@@ -85,10 +91,10 @@
    - 用来查询针对请求URI指定的资源支持的方法。
      
 #### 响应报文
-<img src="" alt="响应报文" width="500" height="300" align="center" />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%93%8D%E5%BA%94%E6%8A%A5%E6%96%87.PNG" alt="响应报文" width="500" height="300" align="center" />
 
 - 状态码：
-<img src="" alt="状态码详解" width="500" height="300" align="center" />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTP%E7%8A%B6%E6%80%81%E7%A0%81%E8%AF%A6%E8%A7%A3.PNG" alt="状态码详解" width="500" height="300" align="center" />
 
 + 常见的HTTP状态码：
    - 200 OK：请求已成功，请求所希望的响应头或数据体将随此相应返回。
