@@ -2,7 +2,8 @@
 ### Cookie
 - Cookie实际上是一小段的文本信息。客户端请求服务器，如果服务器需要记录该用户的状态，就向客户端浏览器发送个Cookie。浏览器会把Cookie保存起来。
 当浏览器再次请求该网站时，浏览器把请求的网址连同该Cookie一同提交给服务器。服务器检查该Cookie，以此来辨认用户状态。
-<img src=""  alt="cookie的工作原理" width="500px" height="300px" />
+<br />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/Cookie%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.PNG"  alt="cookie的工作原理" width="500px" height="300px" />
 
 ### Session
 - Session是另一种记录客户状态的机制，保存在服务器上。客户端浏览器访问服务器的时候，服务器把客户端信息以某种形式记录在服务器上。当客户端浏览
@@ -15,7 +16,8 @@
    + Session超时失效，服务器会自动把长时间没有活跃的Session从服务器上删除掉。
    + 程序调用HttpSession.invalidate()，相应的Session会主动失效。
    + 若服务器的进程被异常终止了，那么在服务器中的Session也会失效。
-<img src=""  alt="Session的工作原理" width="500px" height="300px" />
+<br />
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/Session%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.PNG"  alt="Session的工作原理" width="500px" height="300px" />
 
 ### Cookie与Session
 - 存放的位置不同，Cookie存放在浏览器中，Session存放在服务器中。
