@@ -1,6 +1,6 @@
 # HTTP中介
 ### 代理
-<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTP%E4%BB%A3%E7%90%86.PNG" alt="代理" width="500px" height="300px" ></img>
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTP%E4%BB%A3%E7%90%86.PNG" alt="代理" width="800px" height="300px" ></img>
 
 - 即是客户端又是服务端。
 - 代理连接两个或多个协议相同的应用程序。
