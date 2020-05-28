@@ -26,6 +26,6 @@
 
 ### HTTPS的访问过程与HTTP访问过程的比较
 <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTP%E7%9A%84%E8%AE%BF%E9%97%AE%E8%BF%87%E7%A8%8B.PNG" alt="HTTP访问过程" width="500px" height="300px">
-<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTPS%E7%9A%84%E8%AE%BF%E9%97%AE%E8%BF%87%E7%A8%8B.PNG" alt="HTTPS的访问过程" width="500px" height="500px">
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/HTTPS%E7%9A%84%E8%AE%BF%E9%97%AE%E8%BF%87%E7%A8%8B.PNG" alt="HTTPS的访问过程" width="800px" height="500px">
 
 
