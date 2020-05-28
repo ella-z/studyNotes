@@ -2,7 +2,7 @@
 - 缓存的内容：CSS、JS等更新频率不大的静态资源文件。
 - 浏览器操作对HTTP缓存的影响:
 <br />
-<img src="" alt="" width="500px" height="250px"></img>
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%93%8D%E4%BD%9C%E5%AF%B9HTTP%E7%BC%93%E5%AD%98%E7%9A%84%E5%BD%B1%E5%93%8D.PNG" alt="" width="500px" height="250px"></img>
 
 ### HTTP缓存头部字段
 - Cache-Control 请求/响应头，缓存控制字段，控制http缓存的最高指令。
