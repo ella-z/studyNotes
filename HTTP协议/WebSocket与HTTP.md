@@ -18,13 +18,13 @@ HTTP 代理服务器。
 - 可以发送文本，也可以发送二进制数据。
 - 没有同源限制，客户端可以与任意服务器通信。
 <br />
-<img src="" alt="WebSocket" width="700px" height="500px">
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/WebSocket.PNG" alt="WebSocket" width="700px" height="500px">
 
 
 
 #### WebSocket的握手请求
 <br />
-<img src="" alt="WebSocket的握手请求" width="500px" height="300px">
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/WebSocket%E7%9A%84%E8%AF%B7%E6%B1%82%E8%BF%9E%E6%8E%A5.PNG" alt="WebSocket的握手请求" width="500px" height="300px">
 
 ```
 //告知代理服务器使用的是WebSocket协议
@@ -41,7 +41,7 @@ Sec-WebSocket-Version: 13//表示websocket的版本。如果服务端不支持�
 
 #### WebSocket的握手响应
 <br />
-<img src="" alt="WebSocket的握手响应" width="500px" height="200px">
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/WebSocket%E7%9A%84%E5%93%8D%E5%BA%94%E8%BF%9E%E6%8E%A5.PNG" alt="WebSocket的握手响应" width="500px" height="200px">
 
 ```
 //状态代码101表示协议切换
