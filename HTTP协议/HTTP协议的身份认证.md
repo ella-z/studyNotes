@@ -6,14 +6,14 @@
    - 安全性等级较低，因为采用Base64的方式编码没有加密处理，所以不需要任何附加信息就可以对Base64进行解码。
    - 过程：
    <br />
-   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/basic%E8%AE%A4%E8%AF%81%E7%9A%84%E8%BF%87%E7%A8%8B.PNG" alt="BASIC认证过程" width="400px" height="500px"></img>
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/basic%E8%AE%A4%E8%AF%81%E7%9A%84%E8%BF%87%E7%A8%8B.PNG" alt="BASIC认证过程" width="400px" height="500px">
    
 + DIGEST认证(摘要认证)
    - 提供了密码的保护机制。
    - DIGEST认证与BASIC认证一样都是用了质询/响应的方式，但不会像BASIC认证那样直接发送明文密码。
    - 质询/响应的方式是指一方先发送认证要求给另一方，接着使用从另一方那收到的质询码，计算生成响应，最后将响应码返回给对方进行认证。
    <br />
-   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/digest%E8%AE%A4%E8%AF%81%E7%9A%84%E8%BF%87%E7%A8%8B.PNG" alt="DIGEST认证过程" width="400px" height="500px"></img>
+   <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/digest%E8%AE%A4%E8%AF%81%E7%9A%84%E8%BF%87%E7%A8%8B.PNG" alt="DIGEST认证过程" width="400px" height="500px">
    
 + SSL客户端认证
    - 有较高的安全等级。
