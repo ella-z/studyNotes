@@ -25,6 +25,7 @@ HTTP 代理服务器。
 #### WebSocket的握手请求
 <br />
 <img src="" alt="WebSocket的握手请求" width="500px" height="300px">
+
 ```
 //告知代理服务器使用的是WebSocket协议
 Upgrade：websocket //表示要升级协议
@@ -41,6 +42,7 @@ Sec-WebSocket-Version: 13//表示websocket的版本。如果服务端不支持�
 #### WebSocket的握手响应
 <br />
 <img src="" alt="WebSocket的握手响应" width="500px" height="200px">
+
 ```
 //状态代码101表示协议切换
 101
