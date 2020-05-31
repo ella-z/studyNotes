@@ -19,7 +19,7 @@
 - 一般的验证过程🌰：应用程序必须合适用户提交的用户名和密码是否正确。正确则允许登录，否则就禁止登录。
 - 典型的身份验证模式：
 <br />
-<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E6%A8%A1%E5%BC%8F.PNG" alt="身份验证模式" width="600px" height="400px">
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E6%A8%A1%E5%BC%8F.PNG" alt="身份验证模式" width="500px" height="300px">
 
    + 验证的技术
     1. 基于HTML表单的验证
@@ -29,7 +29,7 @@
    1. 弱密码，许多web应用程序对密码的强度没有过多要求，很容易导致密码过于简单而被攻击者猜到。
    2. 暴力破解，登录功能的公开性会诱使攻击者试图猜测用户名和密码，从而获得访问应用程序的权力。如果应用程序允许攻击者用不同的密码暴力尝试，直到他找到正确的密码，那么这个应用程序就非常容易遭受攻击。
        - 执行暴力攻击的过程：
-       <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E6%89%A7%E8%A1%8C%E6%9A%B4%E5%8A%9B%E6%94%BB%E5%87%BB.PNG" alt="执行暴力攻击的过程" width="500px" height="350px">  
+       <img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E6%89%A7%E8%A1%8C%E6%9A%B4%E5%8A%9B%E6%94%BB%E5%87%BB.PNG" alt="执行暴力攻击的过程" width="400px" height="300px">  
       
        - 对于暴力破解的安全措施
           1. 验证码技术(最常见和有效的应对方式)
