@@ -13,7 +13,7 @@
 进行处理。即master主进程负责分析并加载配置文件，管理worker进程，接收用户信号传递以及平滑升级等功能。另外，nginx具有强大的缓存功能，
 其中Cache Loader负责载入缓存对象，Cache Manager负责管理缓存对象。
 <br />
-<img src="https://github.com/ella-z/studyNotes/blob/master/Nginx/images/nginx%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84.PNG" alt="nginx的基础架构" width="600px" height="400px">
+<img src="https://github.com/ella-z/studyNotes/blob/master/Nginx/images/nginx%E5%9F%BA%E7%A1%80%E6%9E%B6%E6%9E%84.PNG" alt="nginx的基础架构" width="700px" height="300px">
 
 ### nginx的优点 
 - 高并发，高性能：一台普通的服务器可以轻松处理上万并发连接。
