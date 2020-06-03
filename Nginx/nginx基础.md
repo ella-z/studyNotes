@@ -7,6 +7,8 @@
 2. 反向代理服务器：nginx可以作为http协议的反向代理服务器。
 3. FastCGI(php)、uWSGI(python)代理服务器：生产环境上经常使用nginx作为客户端请求后端应用服务。
 4. TCP/UDP代理服务器。
+<br />
+<img alt="nginx的基本功能" src="https://github.com/ella-z/studyNotes/blob/master/Nginx/images/nginx%E7%9A%84%E5%BA%94%E7%94%A8%E5%9C%BA%E6%89%80.PNG" width="400px" height="300px">
 
 ### nginx的基础架构
 - nginx为master/workers结构，一个master主进程，负责管理和维护多个worker进程，真正接收并处理用户请求的其实是worker进程，master不对用户请求
