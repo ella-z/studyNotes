@@ -36,3 +36,14 @@ webpack mode --development index.js -o output1.js
 
 ```
 
+### loader与plugin的区别
+- loader是文件加载器，能够加载资源文件，并对这些文件进行一些处理，诸如编译、压缩等，最终一起打包到指定的文件中。
+   1. 处理一个文件可以使用多个loader，loader的执行顺序和配置中的顺序是相反的，即最后一个loader最先执行，第一个loader最后执行。
+   2. 第一个执行的loader接收源文件内容作为参数，其它loader接收前一个执行的loader的返回值作为参数，最后执行的loader会返回此模块的JavaScript源码。
+- plugin在于解决loader无法实现的其他事，从打包优化和压缩，到重新定义环境变量。   
+- loader 用于加载某些资源文件，而plugin 用于扩展webpack的功能。
+
+
+
+
+
