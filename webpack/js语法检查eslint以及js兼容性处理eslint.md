@@ -51,7 +51,7 @@ module.exports = {
      }
      
 // 若出现了语法不规范，就会跳出下面这种类似的错误
- 1:15  error    A space is required after ','                    comma-spacing
+  1:15  error    A space is required after ','                    comma-spacing
   1:18  error    Missing space before opening brace               space-before-blocks
   1:19  error    Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
   2:1   error    Expected indentation of 2 spaces but found 4     indent
