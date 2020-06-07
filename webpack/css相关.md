@@ -140,7 +140,48 @@ module.exports = {
 }
 ```
 
+## 压缩css
+### optimize-css-assets-webpack-plugin
+- 压缩css文件，压缩文件之后，文件的大小变小
+```
+🌰：
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const optimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 
+process.env.NODE_ENV='production';
+
+module.exports = {
+    entry: './src/js/index.js',
+    output: {
+        filename: 'js/built.js',
+        path: path.resolve(__dirname, './build')
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use:[  
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                ]
+            }
+        ]
+    },
+    plugins:[
+        new HtmlWebpackPlugin({
+            template:'./src/index.html'
+        }),
+        new MiniCssExtractPlugin({
+            filename:'css/bulit.css'
+        }),
+        // 压缩css文件
+        new optimizeCssAssetsWebpackPlugin()
+    ],
+    mode:'development'
+}
+```
 
 
 
