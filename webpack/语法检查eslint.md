@@ -1,5 +1,4 @@
-# 语法检查eslint以及兼容性处理eslint
-### 语法检查eslint
+# 语法检查eslint
 - 语法检查作用：规范书写格式，检查常见的语法错误，主要针对于js文件。
 - 在webpack中使用eslint-loader --依赖于-> eslint，所以安装eslint-loader同时也要安装eslint。
 - 需要在package.json中eslintConfig中设置检查的规则(推荐使用airbnb，相关插件：eslint-config-airbnb-base(有base的，是不包括react plugins的。没有base，则是包括了react plugins))
