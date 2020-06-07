@@ -1,4 +1,5 @@
 # plugin
+- plugin 用于扩展webpack的功能。
 ### MiniCssExtractPlugin
 - 作用：将sass/scss转化称为css之后，将css输出到文件中去。
 - 安装：npm install --save-dev mini-css-extract-plugin
