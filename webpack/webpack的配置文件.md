@@ -27,4 +27,10 @@ module.exports={
   }，
   mode:"development" //声明模式
 }
+
+/*
+在开发环境中，运行项目指令：
+  webpack:会将打包结果输出出去
+  npx webpack-dev-server 只会在内存内编译打包，不会输出
+*/
 ```
