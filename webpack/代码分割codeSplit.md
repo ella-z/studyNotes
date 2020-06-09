@@ -1,4 +1,11 @@
 # code split
+- 代码分割作用：能够把代码分离到不同的 bundle 中，然后可以按需加载或并行加载这些文件。
+- chunk：是webpack内部运行时的概念；一个chunk是对依赖图的部分进行封装的结果，可以通过多个entry-point来生成一个chunk。
+   - chunk分为三类：
+   1. entry chunk，包含webpack runtime code并且是最先执行的chunk。
+   2. initial chunk，包含同步加载进来的module且不包含runtime code的chunk，在entry chunk执行后再执行的。
+   3. normal chunk，使用require.ensure、System.import、import()异步加载进来的module，会被放到normal chunk中。
+- bundle：最终输出的chunk在用户端，被称之为bundle；一般一个chunk对应一个bundle，只有在配置了sourcemap时，才会出现一个chunk对应多个bundle的情况。   
 ### 多入口
 - 可以指定多个入口实现代码分隔
   ```
