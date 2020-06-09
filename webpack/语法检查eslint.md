@@ -3,11 +3,16 @@
 - 在webpack中使用eslint-loader --依赖于-> eslint，所以安装eslint-loader同时也要安装eslint。
 - 需要在package.json中eslintConfig中设置检查的规则(推荐使用airbnb，相关插件：eslint-config-airbnb-base(有base的，是不包括react plugins的。没有base，则是包括了react plugins))
    - 若使用 airbnb ，需要下载eslint-config-airbnb-base 、 eslint 、 eslint-plugin-import。
+   - 因为eslint不能识别window、navigator等全局变量，所以需要修改package.json中eslintConfig的配置
    ```
    🌰：
     //在package.json中
     "eslintConfig":{
-       "extends":"airbnb-base"
+       "extends":"airbnb-base",
+       "env":{
+         "browser":true //支持浏览器端全局变量
+         "node":true //支持nodejs的变量
+       }
      }
    ```
 ```
