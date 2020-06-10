@@ -61,13 +61,6 @@ var obj = {
 }
 obj.sayName()(); //jack
 
-🌰2：
-var name = 'mikey';
-function delay(){
-    setTimeout(function(){
-        console.log('name:', this.name);
-    }, 100)
-}
 ```
 [更多](https://blog.csdn.net/w390058785/article/details/82884032)
 
