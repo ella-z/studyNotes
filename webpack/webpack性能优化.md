@@ -1,11 +1,24 @@
 # webpack性能优化
 ## 开发环境性能优化
 - 优化打包构建速度
+   - HMR
 - 优化代码调试
+   - source-map
 
 ## 生产环境性能优化
 - 优化打包构建速度
+   - oneOf
+   - babel缓存
+   - 多进程打包   
+   - externals
+   - dll
 - 优化代码运行的性能
+   - 缓存(hash-chunkhash-contenthash)
+   - tree shaking
+   - code split
+   - 懒加载/预加载
+   - pwa
+
 
 ### 开发环境中优化打包构建速度-HMR
 - HMR(模块热替换)作用：当一个模块发生变化时，只会重新打包这一个模块，而不是重新打包所有模块，这样会极大地提升构建的速度。
