@@ -8,7 +8,7 @@
 - bundle：最终输出的chunk在用户端，被称之为bundle；一般一个chunk对应一个bundle，只有在配置了sourcemap时，才会出现一个chunk对应多个bundle的情况。   
 ### 多入口
 - 可以指定多个入口实现代码分隔
-  ```
+```
    entry: './src/js/index.js' //单入口
    entry:{
         //多入口：
@@ -39,8 +39,9 @@
     ],
     mode: 'production'
 }
-// 最终build/js中有两个js文件，一个为main.js，另一个为test.js
-  ```
+ //最终build/js中有两个js文件，一个为main.js，另一个为test.js 
+```
+
   
 ### optimization
 - 可以node_modules中代码单独打包一个chunk输出。
