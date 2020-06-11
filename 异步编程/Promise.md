@@ -908,7 +908,7 @@ class User{
 new User().render(['jack','tom']);
 ```
 
-
+### Promise的底层实现
 
 
  
