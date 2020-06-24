@@ -58,11 +58,11 @@
  
  - 组合/合成关系：
  <br />
- <img src="https://github.com/ella-z/studyNotes/blob/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/images/UML/%E7%BB%84%E5%90%88%E5%85%B3%E7%B3%BB.png" title="组合/合成关系" width="200px" height="100px" >
+ <img src="https://github.com/ella-z/studyNotes/blob/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/images/UML/%E7%BB%84%E5%90%88%E5%85%B3%E7%B3%BB.png" title="组合/合成关系" width="200px" height="80px" >
  
  - 依赖关系：
  <br />
- <img src="https://github.com/ella-z/studyNotes/blob/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/images/UML/%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB.png" title="依赖关系" width="200px" height="100px" >
+ <img src="https://github.com/ella-z/studyNotes/blob/master/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/images/UML/%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB.png" title="依赖关系" width="350px" height="150px" >
  
  
  
