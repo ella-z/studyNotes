@@ -45,6 +45,8 @@
    - Cookie：一般为4K左右。
    - LocalStorage：一般为5M。
    - SessionStorage：一般为5M。
+- 存放数据的位置：
+   - 除了Session存放在服务器，其余的都存放在浏览器。
 
 
 
