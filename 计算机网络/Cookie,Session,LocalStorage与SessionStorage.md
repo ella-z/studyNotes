@@ -51,6 +51,6 @@
 
 
 -  参考
-   > [理解cookie、session、localStorage、sessionStorage的关系与区别](https://juejin.im/post/5daedc74518825374b6a17d4)
-   > [详说 Cookie, LocalStorage 与 SessionStorage](https://segmentfault.com/a/1190000002723469)
+   - [理解cookie、session、localStorage、sessionStorage的关系与区别](https://juejin.im/post/5daedc74518825374b6a17d4)
+   - [详说 Cookie, LocalStorage 与 SessionStorage](https://segmentfault.com/a/1190000002723469)
    
