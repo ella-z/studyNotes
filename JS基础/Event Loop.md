@@ -14,7 +14,7 @@
    - 当异步任务中指定的事情完成之后，Event Table会将这个函数移入Event Queue。
    - 当主线程的任务都执行完成之后，就会到Event Queue中读取对应的函数到主线程执行。
 ```
-🌰：
+🌰1：
 console.log(1);
 setTimeout(()=>{
   console.log(2);
@@ -26,11 +26,23 @@ console.log(3);
 3
 2
 // 因为setTimeout是异步函数必须要等到同步任务完成之后才会执行
+🌰2：
+let i = 0;
+setTimeout(()=>{
+  console.log(++i);
+},1000);
+setTimeout(()=>{
+  console.log(++i);
+},1000);
+//输出的结果为
+1
+2
+//因为任务共享内存
 ```
 
 ### Promise与process.nextTick(callback)
 - 对于任务更进一步定义可分为宏任务与微任务。
-   - 宏任务：包括整体代码script，setTimeout，setInterval
+   - 宏任务：包括整体代码script，setTimeout，setInterval，DOM渲染(若有任务阻塞再DOM渲染之前，就会造成页面白页的情况)
    - 微任务：Promise，process.nextTick
 - 而不同类型的任务会进入对应的Event Queue，例如setTimeout，setInterval会进入同一Event Queue。
 - 事件循环执行的顺序为：整体代码script(宏任务) -> 微任务 -> 宏任务 -> 微任务。(每次执行完成一个宏观任务都需要查看是否由微观任务在Event Queue中，若有就要执行完成所有微观任务，再执行下一个宏观任务，以此循环)
