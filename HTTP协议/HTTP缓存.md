@@ -26,9 +26,9 @@
 - CDN是构建在网络之上的内容分发网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低
 网络拥塞，提高用户访问响应速度和命中率。
 
-## 强缓存与协商缓存
+### 强缓存与协商缓存
 <br />
-<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%BC%BA%E7%BC%93%E5%AD%98%E4%B8%8E%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98.png" alt="强缓存与协商缓存" width="700px" height="600px">
+<img src="https://github.com/ella-z/studyNotes/blob/master/HTTP%E5%8D%8F%E8%AE%AE/images/%E5%BC%BA%E7%BC%93%E5%AD%98%E4%B8%8E%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98.png" alt="强缓存与协商缓存" width="700px" height="550px">
 
 - HTTP的缓存可以分为强缓存与协商缓存。
 - 强缓存：强制缓存在缓存数据未失效的情况下（即Cache-Control的max-age没有过期或者Expires的缓存时间没有过期），那么就会直接使用浏览器的缓存数据，不会再向服务器发送任何请求。
@@ -38,7 +38,7 @@
    - 浏览器第一次向服务器请求数据的时候，会在响应头中返回协商缓存的头属性：ETag和Last-Modified。
    - 浏览器第二次向服务器请求数据的时候，请求头中设置了If-Modified-Since 或者 If-None-Match 的时候，会将这两个属性值到服务端去验证是否缓存是否失效，若未失效，返回304状态码，浏览器拿到此状态码直接使用缓存数据了，否则服务器会直接返回数据。
 
-## 缓存的优点
+### 缓存的优点
 1. 减少了冗余的数据传递，节省宽带流量。
 2. 减少了服务器的负担，减少了访问数据库的次数，提升网站的性能。
 3. **加快了客户端加载网页的速度。**
