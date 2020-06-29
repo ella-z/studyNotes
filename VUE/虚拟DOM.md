@@ -43,7 +43,7 @@
 - vue中在使用相同标签名元素的过渡切换时，使用key属性，使得vue可以区分它们，否则vue只会替换其内部属性而不会触发过渡效果。
 
 <br />
-<img src="http://zhangzqcloud.cn/file-images/key.png" title="key" width="300px" height="200px">
+<img src="http://zhangzqcloud.cn/file-images/key.png" title="key" width="500px" height="200px">
 
 ### 为什么key最好不要设定为index
 - 因为使用v-for渲染元素时，使用元素自身的id属性去指定渲染元素的key值有利于单个元素的重新渲染，若采用其他如v-for提供的index, key等值，在改变渲染出来的DOM结构时，会触发所有元素的重新渲染，当数据过大时，可能会造成性能负担。
