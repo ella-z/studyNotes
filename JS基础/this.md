@@ -63,7 +63,7 @@ obj.sayName()(); //jack
 
 ```
 [更多](https://blog.csdn.net/w390058785/article/details/82884032)
-
+[深入了解ES6箭头函数的this](https://blog.csdn.net/lidysun/article/details/104492774?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
 
 
 
