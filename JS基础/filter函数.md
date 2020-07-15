@@ -8,7 +8,7 @@
 ```
 🌰：
 var arr = [12,66,86,1];
-var newArr = arr.filter(function(index,value){
+var newArr = arr.filter(function(value,index){
      return value >= 20;
 });
 console.log(newArr);//66,86
