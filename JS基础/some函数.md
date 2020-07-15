@@ -10,7 +10,7 @@
 ```
 🌰：
 var arr = [12,66,86,1];
-var falg = arr.some(function(index,value){
+var falg = arr.some(function(value,index){
      return value >= 20;
 });
 console.log(falg);//true
