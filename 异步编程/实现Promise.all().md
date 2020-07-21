@@ -92,7 +92,8 @@ myPromiseAll([promise1,promise2,promise3]).then(res=>{
 })
 ```
 
-
+- 参考：
+   - [promise.all()及实现](https://www.jianshu.com/p/c8af0c130ccb)
 
 
 
