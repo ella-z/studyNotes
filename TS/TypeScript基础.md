@@ -1,5 +1,5 @@
 # TypeScript基础
-## Javascript相比TypeScript的优势是什么
+## 与Javascript相比TypeScript的优势是什么
 - 在代码编写的时候就可以发现错误，js要在代码运行的时候才能发现错误。
 - 在语言层面上，增加了类型约束，而且包括了一些语法的扩展，比如枚举类型(Enum)、元组类型（Tuple）等。
 - 兼容性方面也无需担心，因为ts代码最终会被编译成js代码。
