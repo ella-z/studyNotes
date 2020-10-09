@@ -58,7 +58,8 @@ Sec-WebSocket-Protocol：chat
 Sec-WebSocket-Accept
 
 ```
-
+### 有关WebSocket的资料
+- [你不知道的 WebSocket](https://mp.weixin.qq.com/s/ptnK2-ihZNH8yZhkkX6sZQ)
 
 
 
