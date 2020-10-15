@@ -395,6 +395,8 @@ async function test(){
 
 ```
 
+### async与await实现的原理
+- [async与await实现的原理](https://zhuanlan.zhihu.com/p/115112361)
 
 
 
