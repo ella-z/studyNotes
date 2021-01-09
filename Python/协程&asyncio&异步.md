@@ -52,12 +52,59 @@
          loop.run_until_complete(asyncio.wait(tasks))
       
       ```
+
+## asycio异步编程
+- 事件循环：检测并执行某些代码。
+   ```
+      import asyncio
       
+      # 去生成或获取一个事件循环
+      loop = asycio.get_event_loop();
+      # 将任务放到'任务列表中'
+      loop.run_until_complete(task);
+   ```
+- 协程函数：async def 函数名
+- 协程对象：执行协程函数()得到的协程对象
+   - 注意：执行协程函数创建协程对象，函数内部代码不会执行。如果想要运行协程函数内部代码，必须要将协程对象交给事件循环来处理。
+   ```
+    import asyncio
+    
+    async def func():
+        print(1)
+    result = func()
+    
+    # loop = asycio.get_event_loop()
+    #loop.run_until_complete(result)
+    # ||
+    asyncio.run(result)
+   ```
       
+- await
+   - await+IO等待对象(例如：协程对象、Future、Task对象)
       
-      
-      
-      
-      
+- task对象
+   - 在事件循环中添加多个任务。
+   - 用于并发调度协程。
+   - 通过asyncio.create_task()创建task对象。
+      ```
+        #创建task对象
+        task1 = asyncio.create_task(fun())
+      ```
+
+- future对象
+   - task继承于future，task对象内部await结果的处理基于future对象来的。
+   
+   
+### 异步上下文管理
+- 此种对象通过定义 aenter() 和 aexit()方法对async with 语句中的环境进行控制。
+   
+   
+   
+   
+   
+   
+   
+   
+   
       
       
