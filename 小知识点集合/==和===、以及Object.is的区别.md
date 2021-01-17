@@ -16,7 +16,7 @@ console.log(0 == false); //true
 console.log(0 === false); //false
 
 console.log('1' == 1); //true
-console.log('1' === 1); //true
+console.log('1' === 1); //false
 
 console.log(undefined == undefined); //true
 console.log(undefined === undefined); //true
@@ -28,6 +28,7 @@ console.log(NaN === NaN); //false
 //因为每次使用[]都说是新建一个数组对象。当数组比较的时候的是他们的引用，从值上来说两边都是[]但从引用上两边是不等的。
 []==[] //false
 []==false //true
+[] === false // false
 
 null==undefined   //true
 null===undefined //false
